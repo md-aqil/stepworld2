@@ -12,8 +12,18 @@ export default function WhatsAppFloat() {
       target="_blank"
       rel="noopener noreferrer"
       initial={{ scale: 0, opacity: 0 }}
-      animate={{ scale: 1, opacity: 1 }}
-      whileHover={{ scale: 1.1 }}
+      animate={{ 
+        scale: [1, 1.05, 1],
+        opacity: 1 
+      }}
+      transition={{
+        scale: {
+          repeat: Infinity,
+          duration: 3,
+          ease: "easeInOut"
+        }
+      }}
+      whileHover={{ scale: 1.15 }}
       whileTap={{ scale: 0.9 }}
       className="fixed bottom-8 right-8 z-[90] bg-[#25D366] text-white p-4 rounded-full shadow-2xl flex items-center justify-center group"
       title="Chat with us on WhatsApp"

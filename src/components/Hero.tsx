@@ -3,7 +3,7 @@ import { Search, ChevronRight } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <div className="relative pt-24 pb-16 md:pt-32 md:pb-24 lg:pt-40 lg:pb-32 bg-gradient-to-br from-teal-50 to-white overflow-hidden">
+    <div className="relative pt-20 pb-12 md:pt-24 md:pb-16 lg:pt-32 lg:pb-20 bg-gradient-to-br from-teal-50 to-white overflow-hidden">
       {/* Background Decorative Elements */}
       <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-teal-100 rounded-full blur-3xl opacity-50" />
       <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-96 h-96 bg-purple-50 rounded-full blur-3xl opacity-30" />

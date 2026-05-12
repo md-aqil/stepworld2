@@ -41,7 +41,7 @@ export default function App() {
         <Features />
         
         {/* Comparison CTA Section */}
-        <section className="py-20 bg-teal-600 relative overflow-hidden">
+        <section className="py-12 bg-teal-600 relative overflow-hidden">
           <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
             <div className="absolute -top-24 -left-24 w-96 h-96 bg-white rounded-full blur-3xl" />
             <div className="absolute -bottom-24 -right-24 w-96 h-96 bg-white rounded-full blur-3xl" />

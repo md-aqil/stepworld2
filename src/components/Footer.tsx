@@ -2,12 +2,12 @@ import { Facebook, Twitter, Instagram, Linkedin, Youtube, Mail, Phone, MapPin } 
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-white pt-20 pb-10">
+    <footer className="bg-gray-900 text-white pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Brand */}
           <div>
-            <img src="logo.png" alt="StepWorld" className="h-16 mb-6 brightness-0 invert opacity-90" />
+            <img src="logo.png" alt="StepWorld" className="h-16 mb-6" />
             <p className="text-gray-400 leading-relaxed mb-6">
               Empowering students to find the right university, college, and courses through expert guidance and data-driven comparisons.
             </p>
@@ -47,18 +47,18 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-bold mb-6 border-l-4 border-teal-500 pl-3">Contact Us</h4>
             <ul className="space-y-4 text-gray-400">
-                <li className="flex items-start">
-                  <MapPin className="w-5 h-5 text-teal-500 mr-3 shrink-0" />
-                  <span>G - 8, Ground Floor, Step World Education, Noida Sector 3, Noida, Uttar Pradesh 201303</span>
-                </li>
-               <li className="flex items-center">
-                 <Phone className="w-5 h-5 text-teal-500 mr-3 shrink-0" />
-                 <span>099102 45535</span>
-               </li>
-                <li className="flex items-center">
-                  <Mail className="w-5 h-5 text-teal-500 mr-3 shrink-0" />
-                  <span>helpdesk@stepworldeducation.com</span>
-               </li>
+              <li className="flex items-start">
+                <MapPin className="w-5 h-5 text-teal-500 mr-3 shrink-0" />
+                <span>G - 8, Ground Floor, Step World Education, Noida Sector 3, Noida, Uttar Pradesh 201303</span>
+              </li>
+              <li className="flex items-center">
+                <Phone className="w-5 h-5 text-teal-500 mr-3 shrink-0" />
+                <span>099102 45535</span>
+              </li>
+              <li className="flex items-center">
+                <Mail className="w-5 h-5 text-teal-500 mr-3 shrink-0" />
+                <span>helpdesk@stepworldeducation.com</span>
+              </li>
             </ul>
           </div>
         </div>
