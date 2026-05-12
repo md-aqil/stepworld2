@@ -3,7 +3,7 @@ import { School, Building2, MapPin, Award } from 'lucide-react';
 
 const universities = [
   { name: 'MIT WPU', location: 'Pune', type: 'Private', logo: 'mit-wpu.svg', rating: '4.8' },
-  { name: 'RVCE', location: 'Bengaluru', type: 'Private', logo: ' RVCE.png', rating: '4.9' },
+  { name: 'RVCE', location: 'Bengaluru', type: 'Private', logo: ' rvcollegelogo.png', rating: '4.9' },
   { name: 'MSRIT', location: 'Bengaluru', type: 'Private', logo: 'MSRIT.png', rating: '4.7' },
   { name: 'SRM', location: 'Chennai', type: 'Deemed', logo: 'srm-logo.svg', rating: '4.6' },
   { name: 'SYMBIOSIS', location: 'Pune', type: 'Private', logo: 'symbiosis-logo.webp', rating: '4.8' },
@@ -22,14 +22,14 @@ export default function Institutions() {
   return (
     <section className="py-12 bg-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Universities Section */}
         <div className="mb-20">
           <div className="flex items-center space-x-3 mb-10 border-l-4 border-teal-500 pl-4">
             <School className="w-6 h-6 text-teal-600" />
             <h2 className="text-2xl font-black text-gray-900 uppercase tracking-tight">Top Universities</h2>
           </div>
-          
+
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
             {universities.map((uni, index) => (
               <motion.div
@@ -40,9 +40,9 @@ export default function Institutions() {
                 className="group bg-white p-4 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col items-center text-center"
               >
                 <div className="w-full aspect-square bg-white rounded-xl flex items-center justify-center p-3 mb-4 overflow-hidden group-hover:scale-105 transition-transform border border-gray-50">
-                  <img 
-                    src={uni.logo} 
-                    alt={uni.name} 
+                  <img
+                    src={uni.logo}
+                    alt={uni.name}
                     className="w-full h-full object-contain"
                     onError={(e) => {
                       (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${uni.name}&background=f0fdfa&color=0d9488&bold=true`;
@@ -72,7 +72,7 @@ export default function Institutions() {
             <Building2 className="w-6 h-6 text-indigo-600" />
             <h2 className="text-2xl font-black text-gray-900 uppercase tracking-tight">Top Colleges</h2>
           </div>
-          
+
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
             {colleges.map((college, index) => (
               <motion.div
@@ -83,9 +83,9 @@ export default function Institutions() {
                 className="group bg-white p-4 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col items-center text-center"
               >
                 <div className="w-full aspect-square bg-white rounded-xl flex items-center justify-center p-3 mb-4 overflow-hidden group-hover:scale-105 transition-transform border border-gray-50">
-                  <img 
-                    src={college.logo} 
-                    alt={college.name} 
+                  <img
+                    src={college.logo}
+                    alt={college.name}
                     className="w-full h-full object-contain"
                     onError={(e) => {
                       (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${college.name}&background=eef2ff&color=4f46e5&bold=true`;
