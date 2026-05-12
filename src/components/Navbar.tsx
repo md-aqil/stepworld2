@@ -17,7 +17,7 @@ export default function Navbar({ onTalkToExpert }: { onTalkToExpert: () => void 
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="flex-shrink-0 flex items-center">
-              <img src="/logo.png" alt="StepWorld" className="h-8 md:h-12 w-auto object-contain" />
+              <img src="logo.png" alt="StepWorld" className="h-8 md:h-12 w-auto object-contain" />
             </div>
 
             {/* Desktop Links */}

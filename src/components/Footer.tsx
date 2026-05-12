@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Brand */}
           <div>
-            <img src="/logo.png" alt="StepWorld" className="h-16 mb-6 brightness-0 invert opacity-90" />
+            <img src="logo.png" alt="StepWorld" className="h-16 mb-6 brightness-0 invert opacity-90" />
             <p className="text-gray-400 leading-relaxed mb-6">
               Empowering students to find the right university, college, and courses through expert guidance and data-driven comparisons.
             </p>

@@ -2,11 +2,11 @@ import { motion } from 'motion/react';
 import { School, Building2, MapPin, Award } from 'lucide-react';
 
 const universities = [
-  { name: 'MIT WPU', location: 'Pune', type: 'Private', logo: '/mit-wpu.svg', rating: '4.8' },
-  { name: 'RVCE', location: 'Bengaluru', type: 'Private', logo: '/ RVCE.png', rating: '4.9' },
-  { name: 'MSRIT', location: 'Bengaluru', type: 'Private', logo: '/MSRIT.png', rating: '4.7' },
-  { name: 'SRM', location: 'Chennai', type: 'Deemed', logo: '/srm-logo.svg', rating: '4.6' },
-  { name: 'SYMBIOSIS', location: 'Pune', type: 'Private', logo: '/symbiosis-logo.webp', rating: '4.8' },
+  { name: 'MIT WPU', location: 'Pune', type: 'Private', logo: 'mit-wpu.svg', rating: '4.8' },
+  { name: 'RVCE', location: 'Bengaluru', type: 'Private', logo: ' RVCE.png', rating: '4.9' },
+  { name: 'MSRIT', location: 'Bengaluru', type: 'Private', logo: 'MSRIT.png', rating: '4.7' },
+  { name: 'SRM', location: 'Chennai', type: 'Deemed', logo: 'srm-logo.svg', rating: '4.6' },
+  { name: 'SYMBIOSIS', location: 'Pune', type: 'Private', logo: 'symbiosis-logo.webp', rating: '4.8' },
 ];
 
 const colleges = [
