@@ -2,20 +2,20 @@ import { motion } from 'motion/react';
 import { School, Building2, MapPin, Award } from 'lucide-react';
 
 const universities = [
-  { name: 'MIT WPU', location: 'Pune', type: 'Private', logo: 'mit-wpu.svg', rating: '4.8', bgColor: 'bg-[#1a237e]' },
-  { name: 'RVCE', location: 'Bengaluru', type: 'Private', logo: ' RVCE.png', rating: '4.9', bgColor: 'bg-[#800000]' },
-  { name: 'MSRIT', location: 'Bengaluru', type: 'Private', logo: 'MSRIT.png', rating: '4.7', bgColor: 'bg-[#003366]' },
-  { name: 'SRM', location: 'Chennai', type: 'Deemed', logo: 'srm-logo.svg', rating: '4.6', bgColor: 'bg-[#004a99]' },
-  { name: 'SYMBIOSIS', location: 'Pune', type: 'Private', logo: 'symbiosis-logo.webp', rating: '4.8', bgColor: 'bg-[#910a0a]' },
+  { name: 'MIT WPU', location: 'Pune', type: 'Private', logo: 'mit-wpu.svg', rating: '4.8' },
+  { name: 'RVCE', location: 'Bengaluru', type: 'Private', logo: ' RVCE.png', rating: '4.9' },
+  { name: 'MSRIT', location: 'Bengaluru', type: 'Private', logo: 'MSRIT.png', rating: '4.7' },
+  { name: 'SRM', location: 'Chennai', type: 'Deemed', logo: 'srm-logo.svg', rating: '4.6' },
+  { name: 'SYMBIOSIS', location: 'Pune', type: 'Private', logo: 'symbiosis-logo.webp', rating: '4.8' },
 ];
 
 const colleges = [
-  { name: 'NMIMS', location: 'Mumbai', type: 'Private', logo: 'NMIMS-CODE.png', rating: '4.7', bgColor: 'bg-[#ed1c24]' },
-  { name: 'BMSCE', location: 'Bengaluru', type: 'Private', logo: 'bmsce_logo.jpg', rating: '4.8', bgColor: 'bg-white' },
-  { name: 'GL BAJAJ', location: 'Greater Noida', type: 'Private', logo: 'gl-bajaj.webp', rating: '4.5', bgColor: 'bg-white' },
-  { name: 'MAIT', location: 'New Delhi', type: 'Private', logo: 'MAIT_LOGO.png', rating: '4.6', bgColor: 'bg-white' },
-  { name: 'NITTE MEENAKSHI', location: 'Bengaluru', type: 'Private', logo: 'nmit-logo.svg', rating: '4.7', bgColor: 'bg-white' },
-  { name: 'KIET', location: 'Ghaziabad', type: 'Private', logo: 'KIET-Logo.webp', rating: '4.5', bgColor: 'bg-white' },
+  { name: 'NMIMS', location: 'Mumbai', type: 'Private', logo: 'NMIMS-CODE.png', rating: '4.7' },
+  { name: 'BMSCE', location: 'Bengaluru', type: 'Private', logo: 'bmsce_logo.jpg', rating: '4.8' },
+  { name: 'GL BAJAJ', location: 'Greater Noida', type: 'Private', logo: 'gl-bajaj.webp', rating: '4.5' },
+  { name: 'MAIT', location: 'New Delhi', type: 'Private', logo: 'MAIT_LOGO.png', rating: '4.6' },
+  { name: 'NITTE MEENAKSHI', location: 'Bengaluru', type: 'Private', logo: 'nmit-logo.svg', rating: '4.7' },
+  { name: 'KIET', location: 'Ghaziabad', type: 'Private', logo: 'KIET-Logo.webp', rating: '4.5' },
 ];
 
 export default function Institutions() {
@@ -39,7 +39,7 @@ export default function Institutions() {
                 whileHover={{ y: -5 }}
                 className="group bg-white p-4 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col items-center text-center"
               >
-                <div className={`w-full aspect-square ${uni.bgColor} rounded-xl flex items-center justify-center p-3 mb-4 overflow-hidden group-hover:scale-105 transition-transform`}>
+                <div className="w-full aspect-square bg-white rounded-xl flex items-center justify-center p-3 mb-4 overflow-hidden group-hover:scale-105 transition-transform border border-gray-50">
                   <img 
                     src={uni.logo} 
                     alt={uni.name} 
@@ -82,7 +82,7 @@ export default function Institutions() {
                 whileHover={{ y: -5 }}
                 className="group bg-white p-4 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col items-center text-center"
               >
-                <div className={`w-full aspect-square ${college.bgColor} rounded-xl flex items-center justify-center p-3 mb-4 overflow-hidden group-hover:scale-105 transition-transform border border-gray-50`}>
+                <div className="w-full aspect-square bg-white rounded-xl flex items-center justify-center p-3 mb-4 overflow-hidden group-hover:scale-105 transition-transform border border-gray-50">
                   <img 
                     src={college.logo} 
                     alt={college.name} 

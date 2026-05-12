@@ -18,7 +18,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
-              className="text-4xl md:text-6xl font-black text-gray-900 leading-[1.15] mb-8 tracking-tight"
+              className="text-3xl md:text-5xl font-black text-gray-900 leading-[1.15] mb-6 tracking-tight"
             >
               Finding the right <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-indigo-600">university, colleges, courses</span> <br />
@@ -29,7 +29,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
-              className="text-gray-600 text-lg md:text-xl leading-relaxed mb-10 max-w-xl font-medium"
+              className="text-gray-600 text-base md:text-lg leading-relaxed mb-8 max-w-xl font-medium"
             >
               Compare 100+ accredited universities and 300+ courses based on 30+ factors with <span className="font-bold text-teal-600">StepWorld</span>. Get unbiased advice from expert.
             </motion.p>
@@ -80,7 +80,7 @@ export default function Hero() {
           </div>
 
           {/* Right Visuals */}
-          <div className="lg:w-1/2 relative">
+          <div className="lg:w-1/2 relative lg:-mt-12">
             <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}

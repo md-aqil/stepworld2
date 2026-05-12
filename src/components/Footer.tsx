@@ -12,7 +12,7 @@ export default function Footer() {
               Empowering students to find the right university, college, and courses through expert guidance and data-driven comparisons.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="p-2 bg-gray-800 rounded-full hover:bg-teal-500 transition-colors"><Facebook className="w-5 h-5" /></a>
+              <a href="https://www.facebook.com/profile.php?id=61581972416599" target="_blank" rel="noopener noreferrer" className="p-2 bg-gray-800 rounded-full hover:bg-teal-500 transition-colors"><Facebook className="w-5 h-5" /></a>
               <a href="#" className="p-2 bg-gray-800 rounded-full hover:bg-teal-500 transition-colors"><Twitter className="w-5 h-5" /></a>
               <a href="https://www.instagram.com/stepworldeducation?igsh=NzRxMzdsbGF3Mmwz" target="_blank" rel="noopener noreferrer" className="p-2 bg-gray-800 rounded-full hover:bg-teal-500 transition-colors"><Instagram className="w-5 h-5" /></a>
               <a href="#" className="p-2 bg-gray-800 rounded-full hover:bg-teal-500 transition-colors"><Linkedin className="w-5 h-5" /></a>
@@ -35,11 +35,11 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-bold mb-6 border-l-4 border-teal-500 pl-3">Popular Courses</h4>
             <ul className="space-y-4 text-gray-400">
-              <li><a href="#" className="hover:text-teal-500 transition-colors">MBA</a></li>
+              <li><a href="#" className="hover:text-teal-500 transition-colors">B.Tech</a></li>
+              <li><a href="#" className="hover:text-teal-500 transition-colors">MBA / PGDM</a></li>
+              <li><a href="#" className="hover:text-teal-500 transition-colors">MBBS</a></li>
               <li><a href="#" className="hover:text-teal-500 transition-colors">MCA</a></li>
-              <li><a href="#" className="hover:text-teal-500 transition-colors">BBA</a></li>
-              <li><a href="#" className="hover:text-teal-500 transition-colors">BCA</a></li>
-              <li><a href="#" className="hover:text-teal-500 transition-colors">M.Com</a></li>
+              <li><a href="#" className="hover:text-teal-500 transition-colors">BBA / BCA</a></li>
             </ul>
           </div>
 
@@ -64,7 +64,7 @@ export default function Footer() {
         </div>
 
         <div className="pt-8 border-t border-gray-800 text-center text-gray-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} StepWorld. All rights reserved.</p>
+          <p>&copy; 2026 StepWorld. All rights reserved. Designed and Developed By - Dizilight India Private Limited</p>
         </div>
       </div>
     </footer>
