@@ -3,7 +3,7 @@ import { ChevronRight, Play, Star, Users, GraduationCap, Award, Search } from 'l
 
 export default function Hero() {
   return (
-    <div className="relative pt-20 pb-12 md:pt-24 md:pb-16 lg:pt-32 lg:pb-20 bg-white overflow-hidden">
+    <div className="relative pt-28 pb-12 md:pt-36 md:pb-16 lg:pt-44 lg:pb-20 bg-white overflow-hidden">
       {/* Dynamic Background Elements */}
       <div className="absolute top-0 right-0 -mr-20 -mt-20 w-[600px] h-[600px] bg-teal-50 rounded-full blur-[120px] opacity-60 animate-pulse" />
       <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-[600px] h-[600px] bg-indigo-50 rounded-full blur-[120px] opacity-40" />

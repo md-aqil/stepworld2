@@ -39,15 +39,15 @@ export default function App() {
         <PopularPrograms />
         <Institutions />
         <Features />
-        
+
         {/* Comparison CTA Section */}
         <section className="py-12 bg-teal-600 relative overflow-hidden">
           <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
             <div className="absolute -top-24 -left-24 w-96 h-96 bg-white rounded-full blur-3xl" />
             <div className="absolute -bottom-24 -right-24 w-96 h-96 bg-white rounded-full blur-3xl" />
           </div>
-          
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center mt-25">
             <motion.div
               initial={{ scale: 0.9, opacity: 0 }}
               whileInView={{ scale: 1, opacity: 1 }}
@@ -61,7 +61,7 @@ export default function App() {
               Still Confused? Let Our Experts <br className="hidden md:block" /> Help You Decide the Best path.
             </h2>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <motion.button 
+              <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={openPopup}
@@ -69,7 +69,7 @@ export default function App() {
               >
                 Talk to Expert
               </motion.button>
-              <motion.button 
+              <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-transparent border-2 border-white/30 text-white px-10 py-4 rounded-xl font-bold text-lg hover:bg-white/10 transition-colors"
