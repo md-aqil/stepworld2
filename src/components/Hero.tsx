@@ -7,21 +7,13 @@ export default function Hero() {
       {/* Dynamic Background Elements */}
       <div className="absolute top-0 right-0 -mr-20 -mt-20 w-[600px] h-[600px] bg-teal-50 rounded-full blur-[120px] opacity-60 animate-pulse" />
       <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-[600px] h-[600px] bg-indigo-50 rounded-full blur-[120px] opacity-40" />
-      
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
-          
+
           {/* Left Content */}
           <div className="lg:w-1/2 text-left">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="inline-flex items-center px-4 py-2 rounded-full bg-teal-50 text-teal-700 text-sm font-black uppercase tracking-widest mb-8 border border-teal-100"
-            >
-              <Star className="w-4 h-4 mr-2 fill-current" />
-              Step Your Career With Us
-            </motion.div>
-            
+
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -32,7 +24,7 @@ export default function Hero() {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-indigo-600">university, colleges, courses</span> <br />
               shouldn't be so difficult.
             </motion.h1>
-            
+
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -41,7 +33,7 @@ export default function Hero() {
             >
               Compare 100+ accredited universities and 300+ courses based on 30+ factors with <span className="font-bold text-teal-600">StepWorld</span>. Get unbiased advice from expert.
             </motion.p>
-            
+
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -51,9 +43,9 @@ export default function Hero() {
               <div className="bg-white p-2 rounded-2xl shadow-xl flex flex-col md:flex-row gap-2 border border-blue-50">
                 <div className="flex-1 flex items-center px-4 bg-gray-50 rounded-xl">
                   <Search className="w-5 h-5 text-gray-400 mr-3" />
-                  <input 
-                    type="text" 
-                    placeholder="What would you like to study?" 
+                  <input
+                    type="text"
+                    placeholder="What would you like to study?"
                     className="w-full bg-transparent border-none py-4 focus:outline-none text-gray-900 text-lg"
                   />
                 </div>
@@ -62,7 +54,7 @@ export default function Hero() {
                 </button>
               </div>
             </motion.div>
-            
+
             {/* Quick Stats */}
             <motion.div
               initial={{ opacity: 0 }}
@@ -86,7 +78,7 @@ export default function Hero() {
               </div>
             </motion.div>
           </div>
-          
+
           {/* Right Visuals */}
           <div className="lg:w-1/2 relative">
             <motion.div
@@ -97,14 +89,14 @@ export default function Hero() {
             >
               {/* Main Image Container */}
               <div className="relative rounded-[3rem] overflow-hidden border-[12px] border-white shadow-2xl shadow-gray-200 aspect-[4/5] lg:aspect-auto">
-                <img 
-                  src="hero-student.png" 
-                  alt="Student at StepWorld" 
+                <img
+                  src="hero-student.png"
+                  alt="Student at StepWorld"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
               </div>
-              
+
               {/* Floating Badges */}
               <motion.div
                 animate={{ y: [0, -10, 0] }}
@@ -119,7 +111,7 @@ export default function Hero() {
                   <p className="text-sm font-black text-gray-900">99.9% Reliable</p>
                 </div>
               </motion.div>
-              
+
               <motion.div
                 animate={{ y: [0, 10, 0] }}
                 transition={{ repeat: Infinity, duration: 5, ease: 'easeInOut', delay: 0.5 }}
@@ -142,7 +134,7 @@ export default function Hero() {
                 <div className="flex items-center gap-2">
                   <div className="flex -space-x-2">
                     {[1, 2, 3].map((i) => (
-                      <div key={i} className={`w-7 h-7 rounded-full border-2 border-white bg-gray-${i*100 + 200}`} />
+                      <div key={i} className={`w-7 h-7 rounded-full border-2 border-white bg-gray-${i * 100 + 200}`} />
                     ))}
                   </div>
                   <p className="text-[10px] font-black text-gray-900">+4k joined today</p>
@@ -150,7 +142,7 @@ export default function Hero() {
               </motion.div>
             </motion.div>
           </div>
-          
+
         </div>
       </div>
     </div>
